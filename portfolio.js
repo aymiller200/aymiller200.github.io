@@ -89,7 +89,7 @@ function nextJob() {
 
     if (pgNum === 3) {
         jobTitle.innerText = 'Musician 2016-Current'
-        jobTextBox.innerText = "Throughout all of my adult life I have spent my free time playing shows with and managing The Orchard Keepers. This band is something I am incredidly proud of; from the musicians that are a part of it, to the music we create. Booking venues, booking studio time, traveling across the US, making and selling merchandise have all been a constant in my life for almost seven years. I am so grateful for the one of a kind experiences I have had and the one of a kind people I have met. This wild adventure has taught me to communicate thoughtfully, stand up for myself, and be confident in the work I do.  "
+        jobTextBox.innerText = "Throughout all of my adult life I have spent my free time playing shows with and managing The Orchard Keepers. This band is something I am incredibly proud of; from the musicians that are a part of it, to the music we create. Booking venues, booking studio time, traveling across the US, making and selling merchandise have all been a constant in my life for almost seven years. I am so grateful for the one of a kind experiences I have had and the one of a kind people I have met. This wild adventure has taught me to communicate thoughtfully, stand up for myself, and be confident in the work I do.  "
     }
 
     jobImg.src = img[pgNum]
