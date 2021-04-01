@@ -250,6 +250,7 @@ a:hover {
 #workHistory {
     width: 100%;
     height: 455px;
+   
 }
 
 #empHst {
@@ -260,23 +261,17 @@ a:hover {
     text-shadow: 0.8px 0.8px 0.8px black;
     font-size: 20px;
     text-align: center;
-    margin-left: 200px;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
-#jobDes {
-    margin-right: 250px;
-}
 
 #job {
     width: 350px;
     height: 350px;
-    margin-left: 200px;
 }
 
 #jobImg {
     border-radius: 10px;
-    margin-left: 160px;
     margin-top: 130px;
     opacity: 0.8;
     box-shadow: 3px 3px 5px black;
@@ -285,6 +280,8 @@ a:hover {
 button {
     background-color: transparent;
     border: 0px;
+    margin-right: 150px;
+    
 }
 
 #next:hover {
@@ -293,10 +290,11 @@ button {
 }
 
 #jobTitle {
-    
+    text-align: center;
     font-size: 20px;
-    margin-top: 80px;
-    margin-left: 10px;
+    margin-top: 100px;
+    font-weight: bolder;
+   
 }
 
 #jobTextBox {

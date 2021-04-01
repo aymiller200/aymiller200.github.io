@@ -83,12 +83,12 @@ function nextJob() {
     }
 
     if (pgNum === 2) {
-        jobTitle.innerText = 'Canine Care Technician 2018-2019'
+        jobTitle.innerText = 'Canine Care Tech 2018-2019'
         jobTextBox.innerText = "My time at the Indianapolis Humane Society instilled in me a passion and a drive for life that I didn't think I was capable of possessing. I was part of a small team responsible for the care of anywhere between 60-100 dogs. Teamwork and time manangement were key to ensuring we made it through the day. We lifted each other up, cheered each other on, and picked up the slack if one of us was hurt or sick. Some days were brutally heartbreaking, but we were always there for one another and we were always there for the dogs. I strive to hold that same level of respect and compassion for any team I find myself a part of."
     }
 
     if (pgNum === 3) {
-        jobTitle.innerText = 'Musician and Manager 2016-Current'
+        jobTitle.innerText = 'Musician 2016-Current'
         jobTextBox.innerText = "Throughout all of my adult life I have spent my free time playing shows with and managing The Orchard Keepers. This band is something I am incredidly proud of; from the musicians that are a part of it, to the music we create. Booking venues, booking studio time, traveling across the US, making and selling merchandise have all been a constant in my life for almost seven years. I am so grateful for the one of a kind experiences I have had and the one of a kind people I have met. This wild adventure has taught me to communicate thoughtfully, stand up for myself, and be confident in the work I do.  "
     }
 
