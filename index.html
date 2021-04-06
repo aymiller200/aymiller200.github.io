@@ -58,179 +58,210 @@
         </header>
     </div>
 
-    <div id="navContainer" class="position-absolute row ml-1 mr-1 mb-1 p-3">
+    <div id="navContainer" class="position-relative container top-0">
 
-        <div id="suge" class="col-sm-5 mt-1">
-            <a href="#aboutSection"><img src="./assets/suge.PNG" alt="suge" class="h-75 w-75" id="sugeImg">
+
+        <div class="row position-relative" id="navRow">
+        <div id="suge" class="col-sm-6 col-md-6 col-lg-3">
+            <a href="#aboutSection">
+                <img src="./assets/suge.PNG" alt="suge"   id="sugeImg" class="position-relative start-50 translate-middle-x mt-2">
                 <p id="about" class="lead">About Me</p>
             </a>
         </div>
 
-        <div id="dad" class="col-sm-5 mt-5">
+        <div id="dad" class="col-sm-6 col-md-6 col-lg-3">
             <a href="#createTitle">
-                <img src="./assets/Dad.PNG" alt="dad" class="h-75 w-75" id="dadImg">
+                <img src="./assets/Dad.PNG" alt="dad"  id="dadImg" class="position-relative start-50 translate-middle-x mt-2">
                 <p id="projects" class="lead">Creations</p>
             </a>
         </div>
 
-        <div id="blanche" class="col-sm-5 w-25 h-25 mt-1">
+        <div id="blanche" class="col-sm-6 col-md-6 col-lg-3">
             <a href="#fs-frm">
-                <img src="./assets/Blanche.PNG" alt="blanche" class="h-75 w-75" id="blancheImg">
+                <img src="./assets/Blanche.PNG" alt="blanche"  id="blancheImg" class="position-relative start-50 translate-middle-x mt-2">
                 <p id="contact" class="lead">Contact Me</p>
             </a>
         </div>
 
-        <div id="neil" class="col-sm-5 w-25 h-25 mt-5">
+        <div id="neil" class="col-sm-6 col-md-6 col-lg-3">
             <a href="./assets/Ayanna Miller's Resume 2021.pdf" download="ayannamillerresume">
-                <img src="./assets/Neil.PNG" alt="neil" class="h-75 w-75" id="neilImg">
+                <img src="./assets/Neil.PNG" alt="neil"  id="neilImg" class="position-relative start-50 translate-middle-x mt-2">
                 <p id="resume" class="lead"> My Resume</p>
             </a>
         </div>
+    </div>
 
     </div>
     <!-- </div> -->
 
-    <div id='aboutAndJobs' class="container">
+    <div id='aboutAndJobs' class="container position-relative top-50">
 
-        <div id="aboutSection" class="row position-absolute top-100 start-50 translate-middle-x m-2 w-100">
+        <div id="aboutSection" class="row justify-content-center position-relative top-100 w-100">
+
+            <div class="position-relative col-sm-6 col-md-6 col-lg-6" id="headshotContainer">
 
             <img src="./assets/headshot.jpeg" alt="headshot"
-                class="col-sm-6 position-absolute mt-5 translate-middle-x end-50" id="headShot">
+                class="m-5" id="headShot">
+
+            </div>
 
 
-            <p class=" position-absolute col-sm-8 p-5 translate-middle-x start-50" id="bio">2020 was a year of growth and introspection for many people, myself included. I had an urgency to push myself, to learn, to broaden my horizons. I had the drive, but lacked an outlet for that energy until I enrolled in the Web Development program through Eleven Fifty Academy. Plunging headfirst into HTML, CSS, and Javascript I found myself truly at home amongst the code. I am eager to graduate, and eager to become a part of this beautiful industry. </p>
+            <div class="position-relative col-sm-12 col-md-12 col-lg-6" id="bioContainer">
+            <p id="bio" class="mt-5">2020 was a year of growth
+                and introspection for many people, myself included. I had an urgency to push myself, to learn, to
+                broaden my horizons. I had the drive, but lacked an outlet for that energy until I enrolled in the Web
+                Development program through Eleven Fifty Academy. Plunging headfirst into HTML, CSS, and Javascript I
+                found myself truly at home amongst the code. I am eager to graduate, and eager to become a part of this
+                beautiful industry. </p>
+            </div>
+            
+            </div>
 
 
 
-            <div id="workHistory" class="container-fluid position-absolute top-50 m-1 mt-4">
+            <div id="workHistory" class="row justify-content-center mt-5">
 
-                <h5 id="empHst" class="position-absolute top-0 start-50 translate-middle-x">Some
+                <h5 id="empHst" class="mt-3">Some
                     Employment
                     History</h5>
 
-                <div id="job" class="container position-absolute top-0 start-50">
-                    <img src="./assets/pings.jpg" class="w-50 h-50 end-100 position-absolute translate-middle-x"
-                        id="jobImg">
+                <div id="job" class=" col-sm-12 col-md-12 align-self-start position-relative top-50">
 
-                   
-                    <p id=jobTitle class=" col-sm-10 position-absolute top-0"><strong><u></u></strong>
+                    <p id=jobTitle class="m-4"><strong><u></u></strong>
                     </p>
 
+                    <img src="./assets/pings.jpg" class=" position-relative translate-middle-x start-50 mt-3 bottom-0"
+                    width="180" height="180"
+                        id="jobImg">
+                        
+                        <button class="position-absolute end-0 bottom-0 mb-5">
+                            <img src="./assets/arrow-right-circle.svg" alt="right" width="40" height="40" id="next">
+                        </button>
+
+                    </div>
+                    
                     <div id="jobTextBox"
-                        class=" col-sm-10 position-absolute overflow-scroll bottom-0 translate-middle-x start-50 p-1">
+                    class=" col-sm-12 col-md-12 col-lg-6 align-self-end position-relative m-5 overflow-scroll p-1">
+                    
                         <p id="jobDescription"></p>
                     </div>
 
-                    
 
-                    <button class="position-absolute top-100 end-100">
-                        <img src="./assets/arrow-right-circle.svg" alt="right" width="40" height="40" id="next" >
-                    </button>
-                </div>
+
 
             </div>
-        </div>
+        
     </div>
 
-
-    <div id="projectDiv" class="row-sm-6 position-absolute start-0 end-0">
-
+    <div class="container position-relative top-50" id="projectContainer">
         <h1 class="mt-3" id="createTitle">My Creations</h1>
+        <div id="projectDiv" class="row justify-content-center ">
+            <div class="position-relative col-sm-3 m-5" id="projectStatic">
+                <a href="https://aymiller200.github.io/static_layout/" target="_blank" id="staticLink"><img
+                        src="./assets/StaticWeb.png" alt="StaticWeb" width="250" height="250"
+                        class="position-absolute start-50 translate-middle-x" id="staticImg">
+                </a>
+                <h6 class="position-absolute top-0 p-4" id="staticText"><u>Static Website</u></h6>
+                <p class="proText position-absolute top-0 mt-5">A recreation of a pre-existing website using HTML and
+                    CSS.</p>
+            </div>
 
-        <div class="position-absolute col-sm-3 m-5" id="projectStatic">
-            <a href="https://aymiller200.github.io/static_layout/" target="_blank" id="staticLink"><img
-                    src="./assets/StaticWeb.png" alt="StaticWeb" width="250" height="250" id="staticImg">
-            </a>
-            <h6 class="position-absolute top-0 p-4" id="staticText"><u>Static Website</u></h6>
-            <p class="proText position-absolute top-0 mt-5">A recreation of a pre-existing website using HTML and
-                CSS.</p>
+            <div class="position-relative col-sm-3 start-0 end-0 m-5" id="projectCreature">
+                <a href="https://codepen.io/aymiller200/full/WNoGyWg" target="_blank" id="creatureLink"><img
+                        src="./assets/CSS creature.png" alt="Junimo" width="250" height="250" id="creatureImg"
+                        class="position-absolute start-50 translate-middle-x"></a>
+                <h6 class="position-absolute top-0 p-4" id="creatureText"><u>CSS Creature</u></h6>
+                <p class="proText position-absolute top-0 mt-5">A Junimo from Stardew Valley made with CSS.</p>
+            </div>
+
+            <div class="position-relative col-sm-3 m-5 end-0" id="projectApi1">
+                <a href="https://aymiller200.github.io/API-pokemon/" target="_blank" id=apiOneLink><img
+                        src="./assets/API1.png" alt="Pokemon API" width="250" height="250"
+                        class="position-absolute start-50 translate-middle-x" id="apiOneImg"></a>
+                <h6 class="position-absolute top-0 p-4" id="pokeText"><u>Poké API</u></h6>
+                <p class="proText position-absolute top-0 mt-5">A webpage that utilitizes data pulled from the Poké API.
+                </p>
+            </div>
         </div>
 
-        <div class="position-absolute col-sm-3 mt-5 translate-middle-x start-50" id="projectCreature">
-            <a href="https://codepen.io/aymiller200/full/WNoGyWg" target="_blank" id="creatureLink"><img
-                    src="./assets/CSS creature.png" alt="Junimo" width="250" height="250" id="creatureImg"></a>
-            <h6 class="position-absolute top-0 p-4" id="creatureText"><u>CSS Creature</u></h6>
-            <p class="proText position-absolute top-0 mt-5">A Junimo from Stardew Valley made with CSS.</p>
-        </div>
 
-        <div class="position-absolute col-sm-3 m-5 end-0" id="projectApi1">
-            <a href="https://aymiller200.github.io/API-pokemon/" target="_blank" id=apiOneLink><img
-                    src="./assets/API1.png" alt="Pokemon API" width="250" height="250" id="apiOneImg"></a>
-            <h6 class="position-absolute top-0 p-4" id="pokeText"><u>Poké API</u></h6>
-            <p class="proText position-absolute top-0 mt-5">A webpage that utilitizes data pulled from the Poké API.
-            </p>
+        <div class="row justify-content-center" id='projectDiv2'>
+            <div class="position-relative col-sm-3 m-5" id="projectApi2">
+                <a href="https://am-calendarapi.web.app/" target="_blank" id="apiTwoLink">
+                    <img src="./assets/API 2.png" alt="Calendar API"
+                        class="position-absolute start-50 translate-middle-x" width="250" height="250" id=apiTwoImg></a>
+                <h6 class="position-absolute top-0 p-3" id="calendarText"><u>Calendar Index API</u></h6>
+                <p class="proText position-absolute top-0 mt-5 pt-2">A webpage that utilizes data pulled from the
+                    Calendar
+                    Index API.</p>
 
-        </div>
+            </div>
 
-        <div class="position-absolute col-sm-3 m-5 start-0 bottom-0 " id="projectApi2">
-            <a href="https://am-calendarapi.web.app/" target="_blank" id="apiTwoLink">
-                <img src="./assets/API 2.png" alt="Calendar API" class="position-absolute start-50 translate-middle-x" width="250" height="250" id=apiTwoImg></a>
-            <h6 class="position-absolute top-0 p-3" id="calendarText"><u>Calendar Index API</u></h6>
-            <p class="proText position-absolute top-0 mt-5 pt-2">A webpage that utilizes data pulled from the Calendar
-                Index API.</p>
+            <div class="position-relative col-sm-3 m-5" id="projectRed">
+                <img src="./assets/tools.svg" alt="Bootstrap" width="250" height="250"
+                    class="position-absolute ml-5 start-50 translate-middle-x" id="rBadge">
+                <h6 class="position-absolute top-0 mt-5 p-1" id="rBadgeText"><u>Under Construction!</u></h6>
 
-        </div>
+            </div>
 
-        <div class="position-absolute col-sm-3 mr-5 mb-5 start-50 bottom-0 translate-middle-x" id="projectRed">
-            <img src="./assets/tools.svg" alt="Bootstrap" width="250" height="250"
-                class="position-absolute ml-5 start-50 translate-middle-x" id="rBadge">
-            <h6 class="position-absolute top-0 mt-5 p-1" id="rBadgeText"><u>Under Construction!</u></h6>
+            <div class="position-relative col-sm-3 m-5" id="projectBlue">
+                <img src="./assets/tools.svg" alt="Bootstrap" width="250" height="250"
+                    class="position-absolute ml-5 start-50 translate-middle-x" id="bBadge">
+                <h6 class="position-absolute top-0 mt-5 p-1" id="bBadgeText"><u>Under Construction!</u></h6>
+
+            </div>
 
         </div>
 
-        <div class="position-absolute col-sm-3 m-5 end-0 bottom-0" id="projectBlue">
-            <img src="./assets/tools.svg" alt="Bootstrap" width="250" height="250"
-                class="position-absolute ml-5 start-50 translate-middle-x" id="bBadge">
-            <h6 class="position-absolute top-0 mt-5 p-1" id="bBadgeText"><u>Under Construction!</u></h6>
 
+
+
+
+        <div id="formAndFooter" class="position-relative">
+            <form class=" position-relative w-50 start-50 translate-middle-x row" id="fs-frm" name="simple-contact-form"
+                accept-charset="utf-8" action="https://formspree.io/f/xyylgqvg" method="post">
+                <h2 id="formSubmit" class="mb-4">Contact Me!</h2>
+                <blockquote class="blockquote mb-3">
+                    <p>"You miss 100% of the shots you don't take. -Wayne Gretzky"</p>
+                    <footer class="blockquote-footer"><cite title="Michael Scott">Michael Scott</cite></footer>
+                </blockquote>
+                <fieldset id="fs-frm-inputs">
+                    <label for="full-name"><strong><u>Full Name</u></strong></label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    <label for="email-address"><strong><u>Email Address</u></strong></label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                    <label for="message"><strong><u>Message</u></strong></label>
+                    <textarea rows="5" name="message" id="message" placeholder="Go on, friend, don't be shy!"
+                        required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+
+
+            <footer id="copyright" class="position-absolute w-75 h-25 start-50 translate-middle-x">
+                <a href="https://github.com/aymiller200" target="_blank"
+                    class="position-absolute start-50 translate-middle-x mt-5 p-1">
+                    <img src="./assets/github.svg" alt="GitHub" width="40" height="40" id="gitHub">
+                </a>
+
+                <a href="https://www.linkedin.com/in/ayanna-miller-11a687155/" target="_blank"
+                    class="position-absolute mt-5  p-1 translate-middle-x end-50">
+                    <img src="./assets/linkedin.svg" alt="LinkedIn" width="40" height="40" id="linkedIn">
+                </a>
+
+                <a href="https://codepen.io/aymiller200" target="_blank"
+                    class="position-absolute m-5 start-50 translate-middle-x p-1">
+                    <img src="./assets/iconfinder_Codepen_1298732.png" alt="CodePen" width="40" height="40" id=codePen>
+                </a>
+
+                <p id="copyrightTitle" class="position-absolute start-50 translate-middle-x  mt-1 bottom-0">© 2021:
+                    Ayanna Miller
+                </p>
+
+
+            </footer>
         </div>
-
-    </div>
-
-
-    <div id="formAndFooter">
-        <form class="position-absolute w-50 start-50 translate-middle-x" id="fs-frm" name="simple-contact-form"
-            accept-charset="utf-8" action="https://formspree.io/f/xyylgqvg" method="post">
-            <h2 id="formSubmit" class="mb-4">Contact Me!</h2>
-            <blockquote class="blockquote mb-3">
-                <p>"You miss 100% of the shots you don't take. -Wayne Gretzky"</p>
-                <footer class="blockquote-footer"><cite title="Michael Scott">Michael Scott</cite></footer>
-            </blockquote>
-            <fieldset id="fs-frm-inputs">
-                <label for="full-name"><strong><u>Full Name</u></strong></label>
-                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                <label for="email-address"><strong><u>Email Address</u></strong></label>
-                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                <label for="message"><strong><u>Message</u></strong></label>
-                <textarea rows="5" name="message" id="message" placeholder="Go on, friend, don't be shy!"
-                    required=""></textarea>
-                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-            </fieldset>
-            <input type="submit" value="Submit">
-        </form>
-
-        <footer id="copyright" class="position-absolute w-75 h-25 start-50 translate-middle-x">
-            <a href="https://github.com/aymiller200" target="_blank"
-                class="position-absolute start-50 translate-middle-x mt-5 p-1">
-                <img src="./assets/github.svg" alt="GitHub" width="40" height="40" id="gitHub">
-            </a>
-
-            <a href="https://www.linkedin.com/in/ayanna-miller-11a687155/" target="_blank"
-                class="position-absolute mt-5  p-1 translate-middle-x end-50">
-                <img src="./assets/linkedin.svg" alt="LinkedIn" width="40" height="40" id="linkedIn">
-            </a>
-
-            <a href="https://codepen.io/aymiller200" target="_blank"
-                class="position-absolute m-5 start-50 translate-middle-x p-1">
-                <img src="./assets/iconfinder_Codepen_1298732.png" alt="CodePen" width="40" height="40" id=codePen>
-            </a>
-
-            <p id="copyrightTitle" class="position-absolute start-50 translate-middle-x  mt-1 bottom-0">© 2021:
-                Ayanna Miller
-            </p>
-
-
-        </footer>
     </div>
 
 

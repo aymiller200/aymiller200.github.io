@@ -73,7 +73,6 @@ body {
 
 #navContainer {
     opacity: 0;
-    width: 100%;
     margin-top: 130px;
     animation-name: fade-in;
     animation-duration: 2.6s;
@@ -81,6 +80,8 @@ body {
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
     overflow: hidden;
+    margin-top: 300px;
+
 }
 
 #navImg {
@@ -100,45 +101,43 @@ li {
 
 #dropMenu {
     background-image: url('https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80');
-    width: 300px;
-    margin-left: 12px;
-    text-align: center;
+    width: 200px;
+
+    
 }
 
 #suge {
-    width: 25%;
-    height: 25%;
+   
     border-radius: 100%;
     background-image: url('https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80');
     box-shadow: 5px 5px 10px;
 }
 
 #suge:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     transition-duration: 0.5s;
 }
 
 #sugeImg {
-    margin-left: 35px;
-    margin-top: 8px;
+    width: 75%;
+    height: 75%;
+   
 }
 
 #dad {
-    width: 25%;
-    height: 25%;
     border-radius: 100%;
     background-image: url('https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80');
     box-shadow: 5px 5px 10px;
 }
 
 #dad:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     transition-duration: 0.5s;
 }
 
 #dadImg {
-    margin-left: 42px;
-    margin-top: 10px;
+    width: 75%;
+    height: 75%;
 }
 
 #blanche {
@@ -148,13 +147,13 @@ li {
 }
 
 #blanche:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     transition-duration: 0.5s;
 }
 
 #blancheImg {
-    margin-left: 35px;
-    margin-top: 8px;
+    width: 75%;
+    height: 75%;
 }
 
 #neil {
@@ -164,13 +163,14 @@ li {
 }
 
 #neil:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     transition-duration: 0.5s;
 }
 
 #neilImg {
-    margin-left: 35px;
-    margin-right: 8px;
+    width: 75%;
+    height: 75%;
+
 }
 
 #about {
@@ -224,53 +224,55 @@ a:hover {
     animation-delay: 4.6s;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    
+}
+
+#headshotContainer{
+    width: 400px;
+    height: 400px;
+   
 }
 
 #headShot {
     border-radius: 50%;
-    width: 25%;
-    height: 45%;
-    opacity: 0.8;
-    margin-right: 100px;
+    width: 65%;
+    height: 75%;
+    opacity: 0.8;  
 }
+
 
 #aboutSection {
-    height: 850px;
+    height: 100%;
 }
 
+
 #bio {
-    line-height: 2.5;
+    line-height: 2.2;
     font-family: 'Questrial', sans-serif;
     text-align: center;
-    margin-left: 180px;
-    margin-top: 40px;
     font-size: 18px;
 }
 
-#workHistory {
-    width: 100%;
-    height: 455px;
-}
 
 #empHst {
-    white-space: nowrap;
+    
     font-family: 'Chango', sans-serif;
     letter-spacing: 2px;
     color: rgb(248, 212, 10);
     text-shadow: 0.8px 0.8px 0.8px black;
     font-size: 20px;
     text-align: center;
-    margin-top: 40px;
+   
 }
 
 #job {
     width: 350px;
-    height: 350px;
+    height: 400px;
+
 }
 
 #jobImg {
     border-radius: 10px;
-    margin-top: 130px;
     opacity: 0.8;
     box-shadow: 3px 3px 5px black;
 }
@@ -289,32 +291,28 @@ button {
 #jobTitle {
     text-align: center;
     font-size: 20px;
-    margin-top: 100px;
     font-weight: bolder;
 }
 
 #jobTextBox {
     font-size: 18px;
-    width: 410px;
-    height: 220px;
+    width: 350px;
+    height:300px;
     background-color: rgba(248, 212, 10, 0.1);
     text-align: center;
     border-radius: 10px;
-    margin-top: 80px;
-    margin-left: 22px;
+    
 }
 
-#projectDiv {
-    margin-top: 1700px;
-    width: 100%;
-    height: 750px;
-    margin-left: 10px;
-    margin-right: 10px;
+
+#projectContainer{
+    height: 100%;
     opacity: 0;
     animation-name: fade-in;
     animation-delay: 4.6s;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+
 }
 
 #createTitle {
@@ -338,9 +336,10 @@ button {
 #projectStatic {
     height: 250px;
     width: 250px;
-    box-shadow: 3px 3px 6px;
     z-index: 0;
     border-radius: 5px;
+    box-shadow: 3px 3px 6px;
+    
 }
 
 #projectStatic:hover {
@@ -355,7 +354,8 @@ button {
 #staticImg:hover {
     transition: all 0.5s ease-in-out;
     opacity: 0.1;
-    box-shadow: 0px 0px 0px
+    box-shadow: 0px 0px 0px;
+    border-radius: 100%;
 }
 
 #staticText {
@@ -376,6 +376,7 @@ button {
     border-radius: 10px;
     box-shadow: 3px 3px 6px;
     z-index: 0;
+
 }
 
 #projectCreature:hover {
@@ -391,6 +392,7 @@ button {
     transition: all 0.5s ease-in-out;
     opacity: 0.1;
     box-shadow: 0px 0px 0px;
+    border-radius: 100%;
 }
 
 #creatureText {
@@ -426,6 +428,8 @@ button {
     transition: all 0.5s ease-in-out;
     opacity: 0.1;
     box-shadow: 0px 0px 0px;
+    border-radius: 100%;
+    
 }
 
 #pokeText {
@@ -446,6 +450,7 @@ button {
     border-radius: 10px;
     box-shadow: 3px 3px 6px;
     z-index: 0;
+  
 }
 
 #projectApi2:hover {
@@ -461,6 +466,7 @@ button {
     transition: all 0.5s ease-in-out;
     opacity: 0.1;
     box-shadow: 0px 0px 0px;
+    border-radius: 100%;
 }
 
 #calendarText {
@@ -479,6 +485,7 @@ button {
     border-radius: 10px;
     box-shadow: 3px 3px 6px;
     z-index: 0;
+    
 }
 
 #projectRed:hover {
@@ -495,6 +502,7 @@ button {
     transition: all 0.5s ease-in-out;
     opacity: 0.1;
     box-shadow: 0px 0px 0px;
+    border-radius: 100%;
 }
 
 #rBadgeText {
@@ -513,6 +521,7 @@ button {
     border-radius: 10px;
     box-shadow: 3px 3px 6px;
     z-index: 0;
+   
 }
 
 #projectBlue:hover {
@@ -529,6 +538,7 @@ button {
     transition: all 0.5s ease-in-out;
     opacity: 0.1;
     box-shadow: 0px 0px 0px;
+    border-radius: 100%;
 }
 
 #bBadgeText {
@@ -549,6 +559,7 @@ button {
     animation-delay: 4.6s;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    margin-top: 50px;
 }
 
 #formSubmit {
@@ -559,9 +570,7 @@ button {
     font-size: 35px;
 }
 
-#fs-frm {
-    margin-top: 2600px;
-}
+
 
 blockquote {
     text-align: center;
@@ -652,9 +661,7 @@ blockquote {
 
 /* * */
 
-#copyright {
-    margin-top: 3190px;
-}
+
 
 #copyrightTitle {
     font-family: 'Questrial', sans-serif;
