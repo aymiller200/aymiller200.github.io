@@ -85,8 +85,8 @@ body {
 }
 
 #navImg {
-    width: 15%;
-    height: 15%;
+    width: 100%;
+    height: 100%;
 }
 
 #navImg:hover {
@@ -712,7 +712,7 @@ blockquote {
 @keyframes color-in {
     100% {
         background-color: rgba(155, 223, 235, 0.4);
-        overflow-x: hidden;
+        overflow-x: scroll;
         overflow-y: scroll;
     }
 }
